@@ -7,8 +7,15 @@
     background-color: #087F8C;
 }
 
+#left-box {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
 
-h1 {
+}
+
+#title1 {
     color: white;
     font-family: font-family: 'Belanosima', sans-serif;
     font-size: 40px;
@@ -16,11 +23,17 @@ h1 {
     margin-left: 60px;
 }
 
-
-.upper-box {
-    margin-top: 30px;
-    margin-left: 80px;
+#title2 {
     color: white;
+    font-family: font-family: 'Belanosima', sans-serif;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+
+h3 {
+    display: inline;
 }
 
 input {
@@ -42,18 +55,15 @@ input {
 }
 
 
-h3 {
-    display: inline;
-}
 
 
-.main-box {
+.right-box {
+    display: inline-block;
     background-color: white;
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 750px;
     padding: 30px;
     border-radius: 50px;
+    width: 250px;
 }
 
 p {
