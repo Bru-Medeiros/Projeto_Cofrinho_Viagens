@@ -6,23 +6,39 @@
     <title>Meu Cofrinho de Viagens</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Open+Sans:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>MEU COFRINHO DE VIAGENS</h1>
-    <p>Meu próximo destino é</p>
-    <input>
-    <p>Eu tenho guardado</p>
-    <input>
+    
+    <div class="upper-box">
+        <h3>Meu próximo destino é</h3>
+        <input autofocus>
+        <br>
+        <br>
+        <h3>Eu tenho guardado</h3>
+        <select id="simbolo-moeda">
+            <option> R$ </option>
+            <option> $ </option>
+            <option> € </option>
+        </select>
+        <input>
+    </div>
+
 
     <div>
-        <p>Coverter de</p>
+        <p>Converter de</p>
         <select name="moeda-de">
             <option>R$  Real brasileiro</option>
             <option>$  Dólar americano</option>
             <option>€  Euro</option>
         </select>
 
-        <p>Coverter para</p>
+        <p>Converter para</p>
         <select name="moeda-para">
             <option>R$  Real brasileiro</option>
             <option>$  Dólar americano</option>
@@ -30,6 +46,8 @@
         </select>
 
         <button>Converter</button>
+
+<!-- comentarios -->
 
     </div>
 </body>

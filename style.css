@@ -1,0 +1,93 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #087F8C;
+}
+
+
+h1 {
+    color: white;
+    font-family: font-family: 'Belanosima', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+
+.upper-box {
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+}
+
+input {
+    display: inline;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    border-color: #7e8686;
+    color: #ffffff;
+}
+
+#simbolo-moeda {
+    color: white;
+    font-size: 18px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+h3 {
+    display: inline;
+}
+
+/*
+
+input {
+    background-color: white;
+    display: inline;
+    
+    margin-top: 10px;
+    padding: 3px;
+}
+
+
+div {
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+p {
+    background-color: white;
+    color: #087F8C;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+select {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: #BB9F06;
+    color: #5a4f0f;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
