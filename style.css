@@ -26,20 +26,19 @@ h1 {
 input {
     display: inline;
     margin-left: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 3px;
     border-color: #7e8686;
     color: #ffffff;
 }
 
 #simbolo-moeda {
-    color: white;
+    color: black;
     font-size: 18px;
     border-color: white;
     border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
-
 }
 
 
@@ -47,23 +46,13 @@ h3 {
     display: inline;
 }
 
-/*
 
-input {
+.main-box {
     background-color: white;
-    display: inline;
-    
-    margin-top: 10px;
-    padding: 3px;
-}
-
-
-div {
-    background-color: white;
-    position: absolute;
-    top: 250px;
-    left: 250px;
-    padding: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 750px;
+    padding: 30px;
     border-radius: 50px;
 }
 
@@ -71,8 +60,9 @@ p {
     background-color: white;
     color: #087F8C;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+
 
 select {
     background-color: white;
@@ -80,6 +70,12 @@ select {
     margin-bottom: 20px;
     font-size: 15px;
 }
+
+#valor {
+    background-color: white;
+    border-radius: 10px;
+}
+
 
 button {
     display: block;
@@ -90,4 +86,16 @@ button {
     border-radius: 20px;
     font-size: 15px;
 }
+
+
+
+
+
+/*  COMENTARIOS
+
+
+
+
+
+
 
