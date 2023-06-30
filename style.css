@@ -105,6 +105,10 @@ button {
     border-radius: 20px;
     font-size: 15px;
     width: 200px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
+    
+
 }
 
 
