@@ -64,7 +64,7 @@ input {
     margin-top: 50px;
     border-radius: 50px;
     width: 400px;
-    padding: 80px;
+    padding: 40px 60px;
 }
 
 p {
@@ -107,11 +107,20 @@ button {
     width: 200px;
     box-shadow: 0px 4px 4px 0px #00000040;
     cursor: pointer;
-    
-
 }
 
 
+.box-conversao {
+    background-color: white;
+    border-radius: 50px;
+    border-color: #087F8C;
+    margin-top: 30px;
+
+}
+
+img {
+    background-color: white;
+}
 
 
 
